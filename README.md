@@ -2,7 +2,7 @@
 
 Exemplos e trechos retirados do livro <i>Clean Code</i>, de <i>Robert C. Martin</i> para o aperfeiçoamento de um código limpo.
 
-<h2> <b> 1. Nomes Significativos </b> <h2>
+<h2> <b> 1. Nomes Significativos </b> </h2>
 
 <h3> <b> 1.1 Use Nomes que Revelem seu Propósito </b> </h3>
 
