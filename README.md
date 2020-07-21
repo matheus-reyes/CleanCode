@@ -47,3 +47,32 @@ Exemplos e trechos retirados do livro <i>Clean Code</i>, de <i>Robert C. Martin<
 <h3> <b> 2.5 Extraia os blocos try/catch </b> </h3>
 
 "Esses blocos são feios por si só. Eles confundem a estrutura do código e misturam o tratamento de erro com o processamento normal do código. Portanto, é melhor colocar as estruturas em suas próprias funções"
+
+<h2> <b> 3. Comentários </b> </h2>
+
+"O uso adequado de comentários é compensar nosso fracasso em nos expressar no código. Comentários são sempre fracassos. Devemos usá-los porque nem sempre encontramos uma forma de nos expressar sem eles, mas seu uso não é motivo de comemoração."
+
+<h3> <b> 3.1 Comentários Compensam um Código Ruim </b> </h3>
+
+"Códigos claros e expressivos com poucos comentários são de longe superiores a um amontoado e complexo com muitos comentários. Ao invés de gastar seu tempo criando comentários para explicar a bagunça que você fez, use-o para limpar essa zona."
+
+<h3> <b> 3.2 Explique-se no código </b> </h3>
+
+"O que você preferiria ver? Isso:"
+```
+//Verifica se o funcionário tem direito a todos os benefícios
+if ((employee.flags & HOURLY_FLAG) && (employee.age > 65))
+```
+"Ou isso?"
+```
+if (employee.isEligibleForFullBenefits())
+```
+
+<h3> <b> 3.3 Alertas Sobre Consequências </b> </h3>
+
+"Às vezes é útil alertar outros programadores sobre certas consequências."
+
+<h3> <b> 3.4 Destaque </b> </h3>
+
+"Pode-se usar um comentário para destacar a importância de algo que talvez pareça irrelevante."
+
