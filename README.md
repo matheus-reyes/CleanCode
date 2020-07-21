@@ -76,3 +76,29 @@ if (employee.isEligibleForFullBenefits())
 
 "Pode-se usar um comentário para destacar a importância de algo que talvez pareça irrelevante."
 
+<h3> <b> 3.5 Cabeçalhos de Funções </b> </h3>
+
+"Funções curtas não requerem muita explicação. Um nome bem selecionado para uma função pequena que faça apenas uma coisa costuma ser melhor do que um comentário no cabeçalho."
+
+<h2> <b> 4. Formatação </b> </h2>
+
+<h3> <b> 4.1 Formatação Vertical </b> </h3>
+
+"O seu código-fonte deve ser de que tamanho? A partir de códigos simples de 200 linhas, com um limite máximo de 500 linhas. Embora essa não deva ser uma regra fixa, deve-se considerá-la bastante, pois arquivos pequenos costumam ser mais fáceis de se entender do que os grandes."
+
+<h3> <b> 4.2 Espaçamento vertical entre conceitos </b> </h3>
+
+"Cada linha representa uma expressão um uma estrutura, e cada grupo de linhas representa um pensamento completo. Esses pensamentos devem ficar separados por linhas em branco. Há linhas em branco que separam a declaração e a importação de pacotes e cada uma das funções. Essa simples e extrema regra tem grande impacto no layout visual do código."
+
+<h3> <b> 4.3 Distância vertical </b> </h3>
+
+4.3.1 "Os conceitos intimamente relacionados devem ficar juntos verticalmente." </br>
+4.3.2 <b> Variáveis: </b> "Devem-se declarar as variáveis o mais próximo possível de onde serão usadas." </br>
+4.3.3 <b> Variáveis de Instância: </b> "Devem-se declarar as variáveis de instância no início da classe." </br>
+4.3.4 <b> Funções Dependentes: </b> "Se uma função chama outra, elas devem ficar verticalmente próximas, e a que chamar deve ficar acima da que for chamada." </br>
+4.3.5 <b> Afinidade conceitual: </b> "Há outras causas possíveis de afinidade, que pode ser causada por um grupo de funções que efetuam uma operação parecida."
+
+<h3> <b> 4.4 Formatação horizontal </b> </h3>
+
+"Qual deve ser o tamanho de uma linha ? Os programadores claramente preferem linhas curtas. Eu, pessoalmente determinei 120 como meu limite."
+
