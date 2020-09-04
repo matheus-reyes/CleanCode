@@ -102,3 +102,16 @@ if (employee.isEligibleForFullBenefits())
 
 "Qual deve ser o tamanho de uma linha ? Os programadores claramente preferem linhas curtas. Eu, pessoalmente determinei 120 como meu limite."
 
+<h2> <b> 5. Classes </b> </h2>
+
+<h3> <b> 5.1 Organização das Classes </b> </h3>
+
+"Uma classe deve começar com uma lista de variáveis. As públicas, estáticas e constantes, se existirem, devem vir primeiro. Depois vem as variáveis estáticas privadas, seguidas pelas instâncias privadas. Raramente há uma boa razão para se ter uma variável pública."
+
+<h3> <b> 5.2 As classes devem ser pequenas! </b> </h3>
+
+"Com as classes, contamos as responsabilidades. O nome de uma classe deve descrever quais responsabilidades ela faz. Devemos também poder escrever com cerca de 25 palavras uma breve descrição da classe."
+
+<h3> <b> 5.3 O Princípio da Responsabilidade Única </b> </h3>
+
+"O Princípio da Responsabilidade Única afirma que uma classe ou módulo deve ter um, e apenas um, motivo para mudar. Este princípio nos dá uma definição de responsabilidade e uma orientação para o tamanho da classe. Estas devem ter apenas uma responsabilidade e um motivo para mudar."
