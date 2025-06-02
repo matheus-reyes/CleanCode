@@ -2,6 +2,10 @@
 
 Exemplos e trechos retirados do livro <i>Clean Code</i>, de <i>Robert C. Martin</i> para o aperfeiçoamento de um código limpo.
 
+<h2> <b> 0. A Regra do Escoteiro </b> </h2>
+"Não basta escrever um código bom. Ele precisa ser mantido sempre limpo. Todos já vimos códigos estragarem e degradarem com o tempo, portanto, precisamos assumir um papel ativo na prevenção da degradação. A Boy Scouts of America, maior organização de jovens escoteiros dos EUA, tem uma regra simples que poremos aplicar a nossa profissão:
+Deixe a área do acampamento mais limpa do que como você a encontrou."
+
 <h2> <b> 1. Nomes Significativos </b> </h2>
 
 <h3> <b> 1.1 Use Nomes que Revelem seu Propósito </b> </h3>
